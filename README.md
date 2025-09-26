@@ -1,13 +1,14 @@
 # Network Reconnaissance & Footprinting
 
-This project demonstrates passive and active reconnaissance techniques using **WHOIS** and **Nmap**. It shows how information about domains and services can be gathered, and discusses how defenders detect and mitigate such activity.
+This project demonstrates passive and active reconnaissance techniques using **WHOIS** and **Nmap**.  
+It shows how information about domains and services can be gathered, and discusses how defenders detect and mitigate such activity.
 
 ---
 
 ## Tools Used
-- Nmap
-- WHOIS
-- Linux command line (Kali/Ubuntu)
+- Nmap  
+- WHOIS  
+- Linux command line (Kali/Ubuntu)  
 
 ---
 
@@ -19,37 +20,41 @@ This project demonstrates passive and active reconnaissance techniques using **W
 ---
 
 ## Example Commands
+
 ```bash
 whois example.com
 nmap -sS -Pn example.com
-
----
-
 ## Screenshots
 
+### WHOIS Output
 ![WHOIS Output](./whois-output.png)
 
+### Nmap Scan
 ![Nmap Scan](./nmap-scan.png)
-
-
 
 ---
 
 ## Detection & Mitigation
-- **Detection:** IDS/IPS, SIEM logs, DNS/WHOIS monitoring  
-- **Mitigation:** Rate-limiting, honeypots, firewalls, WHOIS privacy services  
+- **Detection:** IDS/IPS, SIEM logs, DNS/WHOIS monitoring.  
+- **Mitigation:** Rate-limiting, honeypots, firewalls, WHOIS privacy services.
 
 ---
 
 ## What I Learned
-- WHOIS queries are passive and rarely detected  
-- Nmap scans are often blocked or flagged by IDS/IPS  
-- Defensive controls are essential to limit exposure  
+- WHOIS queries are passive and rarely detected.  
+- Nmap scans are often blocked or flagged by IDS/IPS.  
+- Defensive controls are essential to limit exposure.
 
 ---
 
+## Files Included
+- `whois-output.png` — sample WHOIS output (anonymised)  
+- `nmap-scan.png` — sample Nmap scan output (anonymised)
+
+---
 
 ## Ethical Note
-This project was carried out in a safe and authorised environment.  
-Do not scan systems without explicit permission.
+This project was carried out in a safe, authorised environment for learning purposes only.  
+Do not scan or attack systems you do not own or have explicit permission to test.
+
 
