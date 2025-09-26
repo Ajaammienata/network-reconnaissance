@@ -24,12 +24,12 @@ whois example.com
 nmap -sS -Pn example.com
 ---
 
-## Screenshots
+## Screenshots  
 
-![WHOIS Output](whois.png)  
+![WHOIS Output](whois-output.png)  
 
-![Nmap Scan](nmap.png)  
- 
+![Nmap Scan](nmap-scan.png)
+
 
 
 ---
