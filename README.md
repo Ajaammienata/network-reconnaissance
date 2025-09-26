@@ -47,6 +47,7 @@ nmap -sS -Pn example.com
 
 ---
 
+
 ## Ethical Note
 This project was carried out in a safe and authorised environment.  
 Do not scan systems without explicit permission.
