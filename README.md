@@ -26,8 +26,8 @@ nmap -sS -Pn example.com
 
 ## Screenshots
 
-- WHOIS output: ![WHOIS](whois.png)  
-- Nmap scan: ![Nmap](nmap.png)  
+WHOIS output: ![WHOIS](whois.png)
+ Nmap scan: ![Nmap](nmap.png)  
 
 
 ---
