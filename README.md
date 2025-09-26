@@ -36,26 +36,24 @@ nmap -sS -Pn example.com
 ---
 
 ## Detection & Mitigation
-- **Detection:** IDS/IPS, SIEM logs, DNS/WHOIS monitoring.  
-- **Mitigation:** Rate-limiting, honeypots, firewalls, WHOIS privacy services.
+- **Detection:** IDS/IPS, SIEM logs, DNS/WHOIS monitoring  
+- **Mitigation:** Rate-limiting, honeypots, firewalls, WHOIS privacy services  
 
 ---
 
 ## What I Learned
 - WHOIS queries are passive and rarely detected.  
 - Nmap scans are often blocked or flagged by IDS/IPS.  
-- Defensive controls are essential to limit exposure.
+- Defensive controls are essential to limit exposure.  
 
 ---
 
 ## Files Included
 - `whois-output.png` — sample WHOIS output (anonymised)  
-- `nmap-scan.png` — sample Nmap scan output (anonymised)
+- `nmap-scan.png` — sample Nmap scan output (anonymised)  
 
 ---
 
 ## Ethical Note
-This project was carried out in a safe, authorised environment for learning purposes only.  
-Do not scan or attack systems you do not own or have explicit permission to test.
-
-
+This project was carried out in a safe and authorised environment.  
+Do not scan systems without explicit permission.  
