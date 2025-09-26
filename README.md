@@ -22,6 +22,7 @@ This project demonstrates passive and active reconnaissance techniques using **W
 ```bash
 whois example.com
 nmap -sS -Pn example.com
+
 ---
 
 ## Screenshots
