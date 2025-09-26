@@ -24,6 +24,7 @@ It shows how information about domains and services can be gathered, and discuss
 ```bash
 whois example.com
 nmap -sS -Pn example.com
+
 ## Screenshots
 
 ### WHOIS Output
